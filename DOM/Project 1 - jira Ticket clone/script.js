@@ -10,8 +10,11 @@ addBtn.addEventListener('click' , function(e){
        //addFlag , true - Model Display
        //addFlag , false - Model Hide
        addFlag = !addFlag
-       if(addFlag==true)
-       modal
+       if(addFlag==true){
+           modelCont.style.display = "flex";
+       }else{
+           modelCont.style.display = "none";
+       }
 
 
 
