@@ -120,6 +120,8 @@
      display: flex;
      gap:2rem;
      justify-content: center;
+     padding: 2rem;
+     flex-wrap: wrap;
     
   }
   
@@ -147,7 +149,6 @@
   .task-area{
     height: calc(100%  -1rem - 2rem);
     font-size: 1.5rem;
-  
     padding:5px
   }
   
